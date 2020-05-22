@@ -31,11 +31,11 @@ prePuller:
 # There are 2 ways of doing this, see JupyterHub tutorial    
 # https://zero-to-jupyterhub.readthedocs.io/en/latest/authentication.html
 # WAY 1: Manually add  allowed users : (this is WAY easier)
-#auth:
-#  whitelist:
-#  users:
-#    - user1
-#    - user2
+auth:
+  whitelist:
+  users:
+    - p26raveen
+    - harshal
 #
 # WAY 2: Add users using gmail accounts, or Oauth : (this is HARD)
 # 1: U need a website name, see google domains:
