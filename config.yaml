@@ -32,10 +32,11 @@ prePuller:
 # https://zero-to-jupyterhub.readthedocs.io/en/latest/authentication.html
 # WAY 1: Manually add  allowed users : (this is WAY easier)
 auth:
-  whitelist:
-  users:
-    - p26raveen
-    - harshal
+  type: github
+  github:
+    clientId: "aa41e4ad3d4a0156d413"
+    clientSecret: "366b3b759a92c74b591b27814c2420b51f02037b"
+    callbackUrl: "http://35.184.9.174/hub/user/p10raveen/"
 #
 # WAY 2: Add users using gmail accounts, or Oauth : (this is HARD)
 # 1: U need a website name, see google domains:
